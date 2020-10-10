@@ -6,13 +6,12 @@ def listValue():
 
 def media():
     sum = 0
-    for i in range(len(list)):
-        sum += list[i]
+    for i in range(len(List)):
+        sum += List[i]
     m = sum / 4
     return m
 
-
-list = []
+List = []
 
 listValue()
 m = media()
